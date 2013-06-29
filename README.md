@@ -1,4 +1,4 @@
-winston-log4j-xml-udp
-=====================
+winston-log4j-udp
+=================
 
-A Winston transport that sends log4j XML layout events over UDP
+A Winston transport that sends events over UDP using a log4j layout
