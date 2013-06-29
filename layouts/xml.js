@@ -28,13 +28,13 @@ XmlLayout.prototype.writePropertiesElement = function(xw, event)
 {
 	xw.startElement('log4j:properties');
 	
-	this.writePropertyElement(xw, 'log4japp', event.app);
-	this.writePropertyElement(xw, 'log4jmachinename', event.machineName);
+	this.writeDataElement(xw, 'log4japp', event.app);
+	this.writeDataElement(xw, 'log4jmachinename', event.machineName);
 		
 	xw.endElement();
 };
 
-XmlLayout.prototype.writePropertyElement = function(xw, name, value)
+XmlLayout.prototype.writeDataElement = function(xw, name, value)
 {	
 	xw.startElement('log4j:data')
 	xw.writeAttribute('name', name);
