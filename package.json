@@ -1,0 +1,31 @@
+{
+  "name": "winston-log4j-udp",
+  "description": "A Winston transport that sends events over UDP using a log4j layout ",
+  "version": "0.0.1",
+  "author": {
+    "name": "Neil Grant",
+    "email": "grantnd@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grantnd/winston-log4j-udp.git"
+  },
+  "keywords": [
+    "logging",
+    "tools",
+	"log4j",
+	"winston"
+  ],
+  "dependencies": {
+    "xml-writer": "1.2.x"
+  },
+  "main": "./lib/winston-log4j-udp",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/grantnd/winston-log4j-udp/issues"
+  }
+}
